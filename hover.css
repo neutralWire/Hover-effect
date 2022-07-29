@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./wp10798325-summer-2022-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.card{
+    width: 233px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-position: center;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 0;
+    transition: transform 0.5s;
+}
+img{
+    -webkit-transition: 0.3s ease-in;
+    height: 260px;
+    margin-bottom: 0;
+}
+
+.card img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+
